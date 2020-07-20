@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Produção Temática</title>
+    
+    <!-- Estilos -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+
+        <!-- Loading -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+</head>
+    
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1><span class="turquoise">Produção Temática</span> GILIE/SP</h1>
+                            <p class="p-large">para a resolução dessa Produção Tematica, foi usado Javascript,<br>
+                            Bootstrap, Datatables e ChartJS<br>
+                            no endereço  <a href="https://github.com/Chili42/PTcomVUE" target="_blank">https://github.com/Chili42/PTcomVUE</a>,
+                            existe um extra onde uso tecnologias apontadas como "diferenciais" no PSI:<br>
+                            <b>PHP, Paradigma OO, Estrutura MVC </b>- utilizando Laravel e Vuejs </p>
+                            <a class="btn-solid-lg page-scroll" href="#resolucao">Ver resolução</a>
+                        </div> 
+                    </div> 
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/header-teamwork.svg" alt="alternative">
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </header> 
+    
+
+
+   <!-- produção tematica -->
+    <div id="resolucao" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Tabela Imóveis</h2>
+                    <p class="p-heading p-large"><span style="color: red;"><b>*</b></span> Por conta da politica do navegador CHROME (CORS policy), solicito utilizar o Mozilla Firefox
+                        ou uma abordagem cliente/servidor utilizando Apache, Nginx ou live server do VS CODE  <br>
+                      </p>
+                </div> 
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">Veja o Gráfico de vendas</a>
+                  </div>
+                  <div class="col-sm">
+                    <a class="btn-solid-lg page-scroll" href="#indicadores">Ver Indicadores</a>
+                  </div>
+                </div>
+              </div> 
+            <br><br>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card-body">
+                        <table id="tblImoveisJquery" class="table table-hover table-primary table-jquery">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Endereço</th>
+                                    <th scope="col">Bairro</th>
+                                    <th scope="col">Cidade</th>
+                                    <th scope="col">Modalidade de Venda</th>
+                                    <th scope="col">Preço (R$)</th>
+                                    <th scope="col">Valor Avaliação</th>
+                                    <th scope="col">Desconto (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                                   
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <a class="btn-solid-lg page-scroll voltarTopo" href="#header" >Voltar ao topo</a><br><br>   
+
+	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide"><br>
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                   
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4>Quantidade Imóveis Vendidos</h4>
+                    <canvas id="graficoVenda" width="400" height="400"></canvas>
+                </div>
+                <div class="col">
+                    <h4>Total por Modalidade (milhões)</h4>
+                    <div class="d-flex justify-content-center">
+                        <canvas id="totalModalidadeVenda" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                   <a class="btn-outline-reg mfp-close as-button">SAIR</a>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <div id="indicadores" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Indicadores</h2>
+                    <p class="p-heading p-large">esta é uma tabela de indicadores com imoveis acima de 1 milhão.<br>
+                        O total de imóves acima de 1 milhão é: <b><span id="totalRegistros"></span></b></p>
+                </div> 
+            </div>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">Gráfico do Indicador</a>
+                  </div>
+                  <div class="col-sm">
+                    <a class="btn-solid-lg page-scroll" href="#resolucao">Voltar Tabela Imoveis</a>
+                  </div>
+                </div>
+              </div> 
+            <br><br>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card-body">
+                        <table id="tblIndicadores" class="table table-striped table-jquery">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Endereço</th>
+                                    <th scope="col">Bairro</th>
+                                    <th scope="col">Cidade</th>
+                                    <th scope="col">Modalidade de Venda</th>
+                                    <th scope="col">Preço (R$)</th>
+                                    <th scope="col">Valor Avaliação</th>
+                                    <th scope="col">Desconto (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+    
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+  
+    <div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide"><br>
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                   
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Total imoveis "milionarios" por modalidade</h4>
+                            <div class="d-flex justify-content-center">
+                                <canvas id="graficoValorTotalIndicadores" width="800" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                   <a class="btn-outline-reg mfp-close as-button">SAIR</a>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <a class="btn-solid-lg page-scroll voltarTopo" href="#header" >Voltar ao topo</a><br><br>                 
+
+    <!-- Assinatura -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Rafael Pimentel Gonçalves © 2020 </a> - c098453</p>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+  
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/swiper.min.js"></script> 
+    <script src="js/jquery.magnific-popup.js"></script> 
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="js/formataDatatable.js"></script>
+    <script src="js/resolucaoPT.js"></script>
+    <script src="js/indicadores.js"></script>
+    <script src="js/insere_grafico.js"></script>
+    <script src="js/grafico_indicadores.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+[0704/112242.600:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0704/112242.676:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0704/113435.186:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0704/113435.260:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0706/085345.909:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0706/085346.002:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0709/221035.595:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0709/221035.685:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0710/184917.059:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0710/184917.175:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0713/084901.348:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0713/084901.506:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0713/085153.494:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0713/085153.608:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0713/163826.661:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0713/163826.769:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0713/164306.127:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0713/164306.230:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0713/190743.579:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0713/190743.663:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0713/230445.447:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0713/230445.560:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0714/075308.337:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0714/075308.467:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0715/002503.766:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0715/002503.894:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0720/095924.407:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0720/095924.483:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
