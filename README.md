@@ -1,3 +1,11 @@
+
+
+https://vladlemos.github.io/PT/
+
+
+
+
+
 # ATENÇÃO: 
 <p>Por conta da politica do navegador CHROME (CORS policy), solicito utizar o Mozilla Firefox ou uma abordagem cliente/servidor
 utilizando Apache, Nginx ou live server do VS CODE</p>
